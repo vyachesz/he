@@ -87,7 +87,7 @@ func main() {
 
 	outputFile, err := os.Create(outputPath)
 	if err != nil {
-		fmt.Println("Error creating output fil==e:", err)
+		fmt.Println("Error creating output file:", err)
 		return
 	}
 	defer outputFile.Close()
