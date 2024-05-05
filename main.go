@@ -17,7 +17,7 @@ type Operation struct {
 	Array      []int
 }
 
-func (o *Operation) SortArray() {
+func (o *Operation) SortArrayyy() {
 	sort.Ints(o.Array)
 }
 
