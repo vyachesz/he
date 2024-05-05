@@ -92,7 +92,4 @@ func main() {
 	}
 	defer outputFile.Close()
 
-	for _, num := range op.Array {
-		outputFile.WriteString(strconv.Itoa(num) + " ")
-	}
 }
